@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body,
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  height: 100%; //stabilizing html
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+body,
+html,
+textarea {
+  overflow: hidden;
+}
+
+/*background pets*/
+
+.bg-pets {
+  position: relative;
+  height: 100vh;
+  min-height: 775px;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+  color: black;
+  background:white;
+  a{
+    text-decoration: none;
+  }
+  h1{
+    font-size: 2rem;
+  }
+}
+.bg-dark{
+  background-color: #D44E5E !important;
+}
+

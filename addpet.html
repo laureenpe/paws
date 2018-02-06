@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lg simulator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="" />
+    <!--fontAwesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--MaterialIcon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="dist/css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">About</h4>
+                        <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it
+                            a few sentences long so folks can pick up some informative tidbits. Then, link them off to some
+                            social networking sites or contact information.</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contact</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="text-white">Follow on Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Like on Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Email me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <i class="fas fa-paw"></i>
+                </a>
+                <div class="text-center">
+                    <h1 class="text-light"> Pet Registration</h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <section class="bg-pets mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                    <h1 class="text-center">Adding a New Pet</h1>
+                    <form>
+                        <h1>Owner Data</h1>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                <input id="nameOwner" type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                <input id="lastNameOwner" type="text" class="form-control" placeholder="Lastname">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="nickname" placeholder="Nickname">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                <input type="number" class="form-control" id="phoneNumber" placeholder="Phone Number +56 90000000">
+                            </div>
+                        </div>
+                        <h1>Pet Data</h1>
+                        <div class="row">
+                            <div class="col col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <div class="form-group">
+                                    <label for="typePet">Type of pet</label>
+                                    <select class="form-control" id="typePet">
+                                        <option>Perro</option>
+                                        <option>Gato</option>
+                                        <option>Conejo</option>
+                                        <option>Anoter</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <label for="namePet">Name of Pet</label>
+                                <input id="namePet" type="text" class="form-control" placeholder="Zatura">
+                            </div>
+                            <div class="col col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <label for="agePet"> Age of Pet </label>
+                                <input id="agePet" type="text" class="form-control" placeholder="5">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <button type="submit" class="btn btn-danger">Save</button>
+
+                        </div>           
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="dist/js/script-min.js"></script>
+
+</body>
+
+</html>
